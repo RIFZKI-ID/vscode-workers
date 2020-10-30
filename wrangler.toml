@@ -1,0 +1,8 @@
+name = "vscode"
+type = "webpack"
+account_id = "41d154df19739a540756d193a9715370"
+workers_dev = true
+
+[site]
+bucket = "./demo"
+entry-point = "workers-site"

@@ -3,7 +3,7 @@ const child_process = require("child_process");
 const fs = require("fs");
 const fse = require("fs-extra");
 const glob = require("glob");
-const rmdir = require('rimraf');
+const rmdir = require("rimraf");
 
 const vscodeVersion = "1.50.1";
 
@@ -92,5 +92,3 @@ const extensionsVar =
   "var extensions =" + JSON.stringify(extensions, { space: "\t", quote: "" });
 
 fs.writeFileSync("../dist/extensions.js", extensionsVar);
-
-
