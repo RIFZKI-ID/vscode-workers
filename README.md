@@ -2,6 +2,8 @@
 
 A fork of [@Felx-B](https://github.com/Felx-B)'s excellent [build pipeline](https://github.com/Felx-B/vscode-web) for creating a web-ready compilation of [Visual Studio Code](https://github.com/microsoft/vscode), similar to the [Visual Studio Code for Web Playground](https://vscode-web-test-playground.azurewebsites.net/).
 
+[![Screenshot of Visual Studio Code running on Cloudflare Workers](./assets/screenshot.png)](https://vscode.glenstack.workers.dev/)
+
 This version does a couple of minor manipulations to the compiled files, and deploys everything to [Cloudflare Workers](https://workers.cloudflare.com/).
 
 ## Getting Started
